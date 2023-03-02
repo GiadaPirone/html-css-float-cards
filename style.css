@@ -1,30 +1,42 @@
+/* *{
+    box-sizing: border-box;    
+} */
 body{
-    
+    /* font-family: 'Comfortaa', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif; */
+    font-family: 'Unbounded', cursive;    
     margin: auto;
-    width: 70%;
-    border: 3px solid #000000;
+    width: 90%;
 }
 
-header h1{
+header{
+    text-align: center;
+}
+
+h1{
     color: #E53170;
-    text-align: center;
-
 }
 
-#presentazione{
-    text-align: center;
+.box{
+    background-color: black;
+    width: 30%;
+    margin: 20px 10px 20px 10px;
+    color: white;
+    float: left;
+    box-shadow:  0px 0px 10px 1px #060606;
+    
 }
 
-.contenitore{
-    position: relative;  
-    width: 100%;
-    margin-left: 10px;
-    margin-bottom: 30px;
+
+img{
+    margin-right: 10px;
+    float: left;
+    height: 110px;
 }
 
-.box {
-    display: inline-block;
-    width: 320px;
-    height: 100px;
-    background-color: #050505;
+.mail:hover{
+    color: aqua;
 }
